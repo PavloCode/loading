@@ -11,3 +11,6 @@ window.onload = function() {
     const loading = document.querySelector('.loading-wrap');
     loading.classList.add('close-loading');
 }
+image.onload = function() {
+    console.log('image ok');
+}
